@@ -18,7 +18,7 @@ mx build
 mx maven-deploy --licenses UPL,BSD-new,GPLv2-CPE foo file:///tmp/repo
 ```
 
-This will create a Maven repository with the artifacts under `/tmp/foo`.
+This will create a Maven repository with the artifacts under `/tmp/repo`.
 
 # Deploy a custom Micronaut build
 
