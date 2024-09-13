@@ -25,7 +25,7 @@ This will create a Maven repository with the artifacts under `/tmp/repo`.
 1. `git clone git@github.com:micronaut-projects/micronaut-core.git`
 2. `cd micronaut-core`
 3. `git checkout cc/layered-images-4.5`
-4. `export JAVA_HOME=/path/to/your/java-21`
+4. `export JAVA_HOME=/path/to/your/java-21` and `export GRAALVM_HOME=/path/to/your/patched/graalvm-jdk`
 5. `./gradlew pTML`
 
 The last step will build Micronaut 4.5.3 with a patch which allows running with layered images and publish the artifacts in the local Maven repository.
