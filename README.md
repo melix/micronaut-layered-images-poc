@@ -4,8 +4,15 @@ This repository demonstrates building layered images with Micronaut.
 
 # Prerequisites
 
-1. A GraalVM build with the [Micronaut Hack patch applied, PR 18329](pull-requests/18329/overview)
-2. JDK 21 installed
+1. A GraalVM build with the [Micronaut Hack patch applied, PR 18329](pull-requests/18329/overview) using:
+
+```bash
+cd graal/vm
+mx --env svm build
+mx --env svm graalvm-home
+```
+
+2. make sure you have a JDK 21 installed
 
 # Prepare the SDK repository
 
